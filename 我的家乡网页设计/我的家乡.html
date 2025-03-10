@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的家乡</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50">
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-blue-600">美丽漳州</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#overview" class="text-gray-600 hover:text-blue-600">城市概况</a>
+                    <a href="#attractions" class="text-gray-600 hover:text-blue-600">风景名胜</a>
+                    <a href="#food" class="text-gray-600 hover:text-blue-600">美食特产</a>
+                    <a href="#guide" class="text-gray-600 hover:text-blue-600">旅游攻略</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 城市概况 -->
+    <section id="overview" class="py-16 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8 text-gray-800">漳州城市概况</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-4">📍 地理位置</h3>
+                <p class="text-gray-600">
+                    漳州位于中国福建省南部，地处东经117°18′至118°23′、北纬23°25′至25°32′之间，东临台湾海峡，南界南中国海，北接泉州市，西邻龙岩市，与广东省潮州市接壤。全市陆域面积1.26万平方公里，海域面积1.86万平方公里，海岸线长达715公里
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-4">🏯 历史沿革</h3>
+                <p class="text-gray-600">
+                    漳州历史悠久，文化底蕴深厚。其前身可追溯至秦朝，当时设为龙溪县，是福建省最早设置的县之一。历经汉、晋、隋、唐等朝代的变迁，漳州逐渐形成了独特的地域文化。漳州是国家历史文化名城，素有“海滨邹鲁”之称，拥有1300多年的历史底蕴
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-4">🌴 自然物产</h3>
+                <p class="text-gray-600">森林覆盖率64.78%，全国鱼米花果之乡，漳州地处南亚热带，气候温润、土壤肥沃，山海资源丰富，素有 “鱼米花果之乡” 美誉，物产种类繁多且品质卓越</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心景点 -->
+    <section id="attractions" class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">必游景点推荐</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white rounded-lg shadow-md">
+                    <thead class="bg-blue-100">
+                        <tr>
+                            <th class="p-4 text-left">景点名称</th>
+                            <th class="p-4 text-left">特色简介</th>
+                            <th class="p-4">开放时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="p-4 font-medium"><a href="web\南靖土楼.html">南靖土楼群</a></td>
+                            <td class="p-4">
+                                世界文化遗产，包含田螺坑“四菜一汤”、裕昌楼（东倒西歪楼）、云水谣古镇等，展现客家聚落智慧
+                            </td>
+                            <td class="p-4 text-center">8:00-17:00</td>
+                        </tr>
+                        <!-- 其他景点行 -->
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="p-4 font-medium"><a href="web/漳州古城.html">漳州古城</a></td>
+                            <td class="p-4">
+                                千年古城，保留唐宋至民国建筑风貌，红砖骑楼、闽南小吃集中地，夜游九龙江可赏灯光秀
+                            </td>
+                            <td class="p-4 text-center">全天开放</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="p-4 font-medium"><a href="web/东山岛.html">东山岛</a></td>
+                            <td class="p-4">
+                                福建省第二大岛，以风动石（“天下第一奇石”）、南门湾（电影《左耳》取景地）、马銮湾沙滩著称
+                            </td>
+                            <td class="p-4 text-center">08:30~18:00</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="p-4 font-medium"><a href="web/六鳌翡翠湾.html">六鳌翡翠湾</a></td>
+                            <td class="p-4">
+                                “中国佛罗里达海岸”，沙质细腻，碧海蓝天，适合露营观日出
+                            </td>
+                            <td class="p-4 text-center">全年开放</td>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="p-4 font-medium"><a href="web/云水瑶.html">云水谣古镇</a></td>
+                            <td class="p-4">
+                                原名长教，因电影《云水谣》更名，古道、百年榕树、土楼（和贵楼、怀远楼）构成诗意画卷
+
+                            </td>
+                            <td class="p-4 text-center">全天开放</td>
+                        </tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 美食特产 -->
+    <section id="food" class="py-16 max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8">特色美食与手信</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-4">🍜 必尝小吃</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>漳州卤面 - 浓郁骨汤搭配丰富配料</li>
+                    <li>蚵仔煎 - 外酥里嫩的海蛎煎饼</li>
+                    <li>四果汤 - 夏季清凉解暑的甜品，由红豆、绿豆、薏仁等食材与当季水果混合，口感丰富，清凉爽口</li>
+                    <li>芦柑 - 漳州芦柑果汁多，口感甜美，是全国知名的特产</li>
+                    <li>麻糍 - 糯米制成的小吃，外皮酥脆，内里软糯，口感独特</li>
+                    <li>生烫 - 将食物生放入的大沸汤中煮熟，味道鲜美，营养丰富</li>
+                    <li>土楼焖豆腐 - 采用自制豆腐，配以当地特有的调料慢炖煮，豆腐软嫩入味，极具客家风味</li>
+                </ul>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold mb-4">🎁 伴手礼推荐</h3>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>白芽奇兰茶 - 乌龙茶珍品</li>
+                    <li>八宝印泥 - 非遗工艺品</li>
+                    <li>杜浔酥糖 - 花生与麦芽糖制成，酥脆不腻</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 旅游攻略 -->
+    <section id="guide" class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">实用旅游信息</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">🚌 交通指南</h3>
+                    <p>高铁：漳州站<br>机场：厦门高崎机场转乘</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">🏨 住宿推荐</h3>
+                    <p>古城周边：芗江酒店<br>海岛区：火山岛泡泡屋</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-4">📅 行程建议</h3>
+                    <p>经典2日游<br>深度4日游</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>© 2025 漳州特色风景小吃 | 数据来源：漳州市旅游局</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:text-blue-400">关于我们</a>
+                <a href="#" class="hover:text-blue-400">联系方式</a>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        /* 自定义滚动条 */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #3b82f6;
+            border-radius: 4px;
+        }
+    </style>
+</body>
+
+</html>
